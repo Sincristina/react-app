@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 170px;
+  }
+  
+  .paragraph-detail {
+    color: #7e7e7e;
+    font-size: 55px;
+    font-weight: 900;
+    width: 39%;
+  }
+  
+  .blog {
+    font-size: 151px;
+    text-shadow: 20px 20px 25px #00000026;
+    -webkit-text-stroke: 3px #1c9267;
+    -webkit-text-fill-color: #fff !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .blog {
+          font-size: 121px;
+        }
+        .header {
+          margin-bottom: 100px;
+        }
+      
+        .paragraph-detail {
+          text-align: center;
+          width: 100%;
+          margin-top: 40px;
+        }
+  }
