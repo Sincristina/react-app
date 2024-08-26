@@ -5,9 +5,9 @@ export default function BlogComponent(props) {
   
     return (
       <div className="flex">
-          <a href="" className="image">
+          <span className="image">
             {image}
-          </a>
+          </span>
           <div>
           <h2 className="blog-title">{title}</h2>
           <span className="readingTime">{TimpDeCitire}</span>

@@ -1,5 +1,4 @@
 import BlogComponent from "../components/BlogComponent"
-import { Link } from "react-router-dom";
 
 
 export default function BlogListComponent(props) {
